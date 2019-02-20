@@ -1,0 +1,25 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.disabled {
+    color: grey;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+h4 {
+    color: blue;
+}
