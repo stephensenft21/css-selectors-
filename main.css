@@ -9,7 +9,8 @@ header li {
     justify-content: space-between;
 }
 
-.disabled {
+.disabled,
+.disabled:visited {
     color: grey;
 }
 
@@ -20,6 +21,37 @@ a .disabled {
 .active {
     color: yellow;
 }
-h4 {
+
+.parent div div {
+    color: red;
+
+}
+
+.parent div~div {
     color: blue;
+}
+
+.parent div div+h4 {
+    background-color: red;
+
+}
+
+.parent div div+h4+div+h4 {
+    background-color: blue;
+
+}
+
+.grandparent>h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+footer input {
+    height: 25px;
 }
